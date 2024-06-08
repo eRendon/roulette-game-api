@@ -1,0 +1,11 @@
+@RouletteGame_HostAddress = http://localhost:5209
+
+GET {{RouletteGame_HostAddress}}/api/roulette/spin
+Accept: application/json
+
+###
+
+GET {{RouletteGame_HostAddress}}/todos/1
+Accept: application/json
+
+###
